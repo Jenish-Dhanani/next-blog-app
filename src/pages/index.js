@@ -1,15 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
-
-const inter = Inter({ subsets: ['latin'] })
+import Layout from "@/components/layout";
+import Section1 from "@/components/section1";
+import Section2 from "@/components/section2";
+import Section3 from "@/components/section3";
+import Section4 from "@/components/section4";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline text-emerald-500">
-      Hello world!
-    </h1>
+    <>
+      <Layout>
+        <Section1/>
+        <Section2/>
+        <Section3/>
+        <Section4/>
+      </Layout>
+    </>
   )
 }
