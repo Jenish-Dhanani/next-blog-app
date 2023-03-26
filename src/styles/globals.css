@@ -28,3 +28,15 @@
   background-color: #999999;
   border-radius: 14px;
 }
+
+
+.loader{
+  @apply border-gray-200 rounded-full border-4 ease-linear h-10 w-10;
+  border-top-color: #363ce0;
+  animation: spinner 1.2s linear infinite;
+}
+
+@keyframes spinner{
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
