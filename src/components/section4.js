@@ -23,7 +23,7 @@ export default function section4() {
   }
 
   return (
-    <section className="container mx-auto md:px-20 py-16">
+    <section className="container mx-auto md:px-20 py-16 px-5">
       <div className="grid lg:grid-cols-2">
         <div className="item">
           <h1 className="font-bold text-4xl py-12 text-start">Business</h1>
